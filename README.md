@@ -5,7 +5,7 @@ Optimisation routines in R rely on functions to compute gradients. adoptim is a 
 
 ## Installation
 
-```
+```R
 R> devtools::install_github("mkomod/adoptim")
 ```
 
@@ -13,7 +13,7 @@ R> devtools::install_github("mkomod/adoptim")
 
 adoptim is used via Rcpp by the inclusion of the "adoptim.hpp" header
 
-```
+```C++
 #include "adoptim.hpp"
 
 using namespace adoptim;
