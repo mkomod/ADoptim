@@ -1,11 +1,11 @@
-# adoptim
+# ad-optim
 
-Optimisation routines in R rely on functions to compute gradients. adoptim is a wrapper around R's optimisations routines where function gradients are computed automatically via algorithmic differentiation (through CppAD).
+Optimisation routines in R rely on functions to compute gradients. `ad-optim` is a wrapper around R's optimisations routines where function gradients are computed automatically via algorithmic differentiation (through CppAD).
 
 ## Installation
 
 ```R
-R> devtools::install_github("mkomod/adoptim")
+R> devtools::install_github("mkomod/ad-optim")
 ```
 
 ## Usage 
