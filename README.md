@@ -1,5 +1,4 @@
 # adoptim
----
 
 Optimisation routines in R rely on functions to compute gradients. adoptim is a wrapper around R's optimisations routines where function gradients are computed automatically via algorithmic differentiation (through CppAD).
 
