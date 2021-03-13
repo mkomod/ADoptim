@@ -1,11 +1,11 @@
-Package: ADoptim
+Package: adoptim
 Type: Package
-Title:
+Title: AutoDiff based optimisation
 Version: 1.0
 Date: 2021-02-14
 Author: Michael Komodromos
 Maintainer: Michael Komodromos  <mk1019@imperial.ac.uk>
-Description: AD with R and CppAD
+Description: R's optimisation routines with autodiff for gradient computations.
 Imports: Rcpp (>= 1.0.6)
 LinkingTo: Rcpp
 Depends: Rcpp
